@@ -1,0 +1,18 @@
+{
+  "name": "gymform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss static/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
